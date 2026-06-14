@@ -1,0 +1,24 @@
+name: 'Markdown Link Checker'
+description: 'Fast, zero-dependency Markdown link checker for GitHub Actions'
+author: 'Nikolay Spiridonov'
+branding:
+  icon: 'trinagle'
+  color: 'blue'
+
+inputs:
+  path:
+    description: 'Path to directory or file to check'
+    required: false
+    default: '.'
+  exclude-urls:
+    description: 'Comma-separated regex patterns of URLs to ignore'
+    required: false
+    default: ''
+  parallel:
+    description: 'Number of concurrent requests limit'
+    required: false
+    default: '5'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
