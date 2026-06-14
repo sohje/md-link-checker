@@ -1,6 +1,6 @@
 # Markdown Link Checker
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sohje/md-link-checker?label=version)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sohje/md-link-checker)
 ![License](https://img.shields.io/github/license/sohje/md-link-checker)
 
 
