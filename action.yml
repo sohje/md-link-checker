@@ -1,4 +1,4 @@
-name: 'Markdown Link Checker'
+name: 'md-link-checker'
 description: 'Fast, zero-dependency Markdown link checker for GitHub Actions'
 author: 'Nikolay Spiridonov'
 branding:
