@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Markdown Link Checker
-        uses: sohje/md-link-checker@v1.0.0
+        uses: sohje/md-link-checker@v1
         with:
           path: './docs' # Directory to check
           exclude-urls: 'localhost,127\.0\.0\.1,.*internal-domain\.com.*'

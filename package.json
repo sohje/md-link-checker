@@ -1,6 +1,6 @@
 {
     "name": "md-link-checker",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "High-performance zero-dependency Markdown link checker for GitHub Actions",
     "main": "dist/index.js",
     "scripts": {

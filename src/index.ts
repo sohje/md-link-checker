@@ -2,7 +2,7 @@ import * as core from '@actions/core';
 import { readFile } from 'node:fs/promises';
 import { findMarkdownFiles } from './utils/fs-walker';
 import { extractLinks, ParsedLink } from './core/parser';
-import { validateLinks, ValidationResult } from './core/validator';
+import { validateLinks } from './core/validator';
 
 async function run() {
     try {
